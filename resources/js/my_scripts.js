@@ -155,7 +155,7 @@ function loadPlayersPage() {
         console.log(i.toString());
         console.log("switchPlayers(" + i.toString() + ")");
         //element.onclick = "switchPlayers(" + i.toString() + ")";
-        element.onclick = function() { console.log("fuck") };
+        element.onclick = function() { console.log("working???") };
         element.innerHTML = players[i].name;
         dropdown.appendChild(element);
     }
